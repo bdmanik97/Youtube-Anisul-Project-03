@@ -136,7 +136,6 @@ hr{
     display: table;
     clear: both;
 }
-
 .about-me-image{
     text-align: center;
     margin-top: 50px;
@@ -368,11 +367,41 @@ hr{
 .media-buttons{
     padding: 50px;
 }
-
-
 .achivment-contact::after{
     content: '';
     clear: both;
     display: table;
 }
 /* <!-- Achivment Contact design page end here --> */
+
+/* <!-- Footer design start here --> */
+.footer{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+.footer-menu a{
+    display: block;
+    margin: 15px 0;
+    font-size: 17px;
+}
+.footer-menu a:hover{
+    color: gray; 
+}
+.footer-desc{
+    color: white;
+}
+.footer-menu{
+    margin-top: 12px;
+}
+.footer-menu a{
+    display: inline;
+    margin: 10px;
+}
+.footer::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+/* <!-- Footer design end here --> */
