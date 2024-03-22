@@ -34,7 +34,7 @@
     .profile .top-weather{
         position: absolute;
         right: 100px;
-        top: 20px;
+        top: 10px;
         transition: width 2s;
     }
     .profile .top-weather:hover{
@@ -44,7 +44,6 @@
     .profile .button-weather{
         position: absolute;
         left: 100px;
-        bottom: 20px;
         transition: width 2s;
     }
     .profile .button-weather:hover{
@@ -54,8 +53,55 @@
     .profile-desc p{
         text-align: center;
         width: 50%;
-        margin: 0 auto 20px auto;
+        margin: 0 auto 100px auto;
         color: gray;
         font-size: 22px;
     }
     /* Profile design end here */
+
+    /* About me design start here */
+    .images-custom{
+        height: 250px;
+        width: 280px;
+        border: 4px solid rgb(255, 255, 255);
+        border-radius: 50%;
+    }
+    .about-me-desh p{
+        text-align: left;
+    }
+    /* About me design end here */
+
+    /* <!-- Achivment Contact design page start here --> */
+    .achivment{
+        padding-right: 30px;
+    }
+    .contact button{
+        font-size: 18px;
+        font-weight: bolder;
+        border: none;
+        border-radius: 12px;
+        background-color: rgb(174, 101, 6);
+        color: white;
+        cursor: pointer;
+        margin-top: 10px;
+        padding: 10px;
+        width: 100px;
+    }
+    .media-buttons{
+        padding: 70px;
+    }
+    
+    /* ICON MEDILE TAKING DESIGN START HERE */
+    /* .contact-links{
+        position: relative;
+    }
+    .media-buttons{
+        position: absolute;
+        margin-top: 250px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    } */
+    /* ICON MEDILE TAKING DESIGN END HERE */
+
+    /* <!-- Achivment Contact design page end here --> */
