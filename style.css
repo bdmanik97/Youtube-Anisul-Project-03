@@ -178,7 +178,7 @@ hr{
     background-color: rgb(140, 140, 56);
     padding: 10px;
     border-radius: 10px;
-    height: 500px;
+    height: auto;
 }
 .card-icon{
     text-align: center;
